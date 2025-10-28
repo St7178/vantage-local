@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora Vantage Local</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script defer src="js/app.js"></script>
+</head>
+<body class="bg-light">
+  <div class="container py-5">
+    <div class="card shadow rounded p-4">
+      <h2 class="text-center mb-4">Vantage Local - Cotizador de Servidores</h2>
+      <input type="text" id="buscarServidor" class="form-control mb-3" placeholder="Buscar servidor por nombre...">
+
+      <div id="infoServidor" class="mt-4 d-none">
+        <h5>📡 Información del servidor</h5>
+        <ul id="detallesServidor" class="list-group mb-3"></ul>
+
+        <h5>💰 Cotización</h5>
+        <ul id="detallesCosto" class="list-group"></ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
